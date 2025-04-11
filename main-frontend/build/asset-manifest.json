@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48ced830.css",
+    "main.js": "/static/js/main.f4a83b07.js",
+    "static/media/Farming.mp4": "/static/media/Farming.a841f39d376431e78dad.mp4",
+    "index.html": "/index.html",
+    "main.48ced830.css.map": "/static/css/main.48ced830.css.map",
+    "main.f4a83b07.js.map": "/static/js/main.f4a83b07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48ced830.css",
+    "static/js/main.f4a83b07.js"
+  ]
+}

@@ -1,0 +1,33 @@
+/* Additional custom styles to complement Bootstrap */
+.star {
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.star:hover {
+    color: #ffc107 !important;
+    transform: scale(1.2);
+}
+
+.resource-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .resource-cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Modal and Card Enhancements */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}

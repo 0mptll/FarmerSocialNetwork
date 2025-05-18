@@ -1,6 +1,7 @@
 # 🌾 Farmer's Social Network
 
 A comprehensive platform connecting farmers and agronomists to share knowledge, access AI-driven insights, and collaborate for improved agricultural practices.
+## [🎬 WATCH OUR DEMO VIDEO](https://drive.google.com/file/d/1EZyBWT4NNu7a35LqHmDhO825qL1BAqfp/view?usp=sharing)
 
 ![Dashboard](screenshots/Dashboard.png)
 

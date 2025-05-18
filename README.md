@@ -263,7 +263,7 @@ The crop disease detection system uses a Convolutional Neural Network (CNN) with
    npm start
    ```
 
-3. **Backend Setup**
+3. **Backend Setup(Spring Tool Suite| 4)**
    ```bash
    cd backend
    mvn clean install
@@ -272,9 +272,10 @@ The crop disease detection system uses a Convolutional Neural Network (CNN) with
 
 4. **Chat Service Setup**
    ```bash
-   cd chat-service
+   cd Backend
    npm install
-   npm start
+   Connet with MongoDb
+   run App.js
    ```
 
 5. **Database Configuration**
@@ -282,11 +283,11 @@ The crop disease detection system uses a Convolutional Neural Network (CNN) with
    - Configure MongoDB Atlas for chat service
    - Import provided schema files
 
-6. **ML Service Setup**
+6. **ML Service Setup(Spring Tool Suite| 4)**
    ```bash
-   cd ml-service
    pip install -r requirements.txt
-   python app.py
+   Open Docker Desktop and start the docker engine.
+   docker run -p 5050:5050 crop-disease-predictor(in Terminal)
    ```
 
 ## 🔮 Future Enhancements
@@ -298,13 +299,4 @@ The crop disease detection system uses a Convolutional Neural Network (CNN) with
 - Implement automated fertilizer recommendations
 - Support more crop types and diseases
 
-## 👨‍💻 Contributors
 
-- **Om Patel** (CE071) (22CEUON123)
-- **Parmar Vanraj** (CE032) (22CEUOT130)
-- **Sorathiya Sahil** (CE044) (22CEUOG040)
-
-*Under the guidance of:*
-**Prof. Mrudang T. Mehta**
-Department of Computer Engineering
-Dharmsinh Desai University
